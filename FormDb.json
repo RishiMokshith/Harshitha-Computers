@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "5762",
+      "username": "A",
+      "number": "1234567890",
+      "course": "AWS"
+    },
+    {
+      "id": "5542",
+      "username": "Rishi",
+      "number": "1234567890",
+      "course": "Photoshop"
+    },
+    {
+      "id": "a1a5",
+      "username": "shadrack C",
+      "number": "9182269772",
+      "course": "AWS"
+    },
+    {
+      "id": "e9e0",
+      "username": "Harish Reddy",
+      "number": "8148265977",
+      "course": "DevOps"
+    },
+    {
+      "id": "44c6",
+      "username": "Swarna",
+      "number": "8148265977",
+      "course": "AWS"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "868c",
+      "courseCode": "java001",
+      "rating": 5,
+      "username": "Muni",
+      "village": "Mpl"
+    },
+    {
+      "id": "9474",
+      "courseCode": "python001",
+      "rating": 5,
+      "username": "Muni",
+      "village": "Mpl"
+    },
+    {
+      "id": "940e",
+      "courseCode": "dca001",
+      "rating": 5,
+      "username": null,
+      "village": null
+    },
+    {
+      "id": "14b5",
+      "courseCode": "dca001",
+      "rating": 4.4,
+      "username": "Muni",
+      "village": "Mpl"
+    }
+  ]
+}

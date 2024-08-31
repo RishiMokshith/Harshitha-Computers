@@ -1,0 +1,140 @@
+.AdminLogin * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .AdminLogin {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .AdminLogin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  
+  .AdminLogin-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  
+  .AdminLogin-box::before,
+.AdminLogin-box::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(#ff6f61, #e009d6, #09e06a);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  z-index: -1;
+  padding: 3px;
+  border-radius: 15px;
+  animation: rotate-border 3s linear infinite;
+}
+
+.AdminLogin-box::before {
+  filter: blur(15px);
+  opacity: 0.5;
+}
+
+@keyframes rotate-border {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+  
+  
+  .AdminLogin h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #063dab;
+  }
+  
+  
+  .AdminLogin-input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .AdminLogin-input-group label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: block;
+    color: #8e44ad;
+  }
+  
+  .AdminLogin-input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .AdminLogin-input-group input:focus {
+    border-color: #9b59b6;
+  }
+  
+
+  .AdminLogin-button {
+    background-color: #9b59b6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .AdminLogin-button:hover {
+    background-color: #8e44ad;
+  }
+  
+  
+  @keyframes rotate-border {
+    from {
+      --angle: 0deg;
+    }
+    to {
+      --angle: 360deg;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .AdminLogin-box {
+      width: 30%;
+    }
+  }
+  

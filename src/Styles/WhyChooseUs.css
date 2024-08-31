@@ -1,0 +1,135 @@
+.why-choose-us-container {
+    font-family: 'Poppins', sans-serif;
+   
+    color: #9b9573;
+  }
+  
+  .hero-section {
+   
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+
+  }
+  
+  .hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(5, 78, 112); 
+    color: gold;
+    
+  }
+  
+  
+  .features-section {
+    padding: 60px 20px;
+    background-color: #ecf0f1;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .features-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    
+    
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+
+  
+  .testimonials-section {
+    padding: 60px 20px;
+   border-radius: 20px; 
+    background-color: #333;
+    text-align: center;
+    color: gold;
+    margin-bottom: 20px;
+  }
+  .testimonials-section h2{
+    color:orange;
+  }
+  
+  .testimonials-slider {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cta-section {
+    padding: 40px 20px;
+    
+    
+    border-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+  }
+  
+  .cta-section h2 {
+    margin-bottom: 20px;
+    color: rgb(7 87 125);
+  }
+  
+  .cta-section button {
+    
+    background-color: rgb(15, 223, 153);
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    width: 500px;
+  }
+  
+  .cta-section button:hover {
+    background-color: #c0392b;
+  }
+  
+
+   
+.testimonial {
+    text-align: center;
+    color: white;
+  }
+  
+  .photo-frame {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 10px;
+  }
+  
+  .photo-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+ 
+  .testimonials-slider .slick-dots {
+    bottom: -30px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: gold;
+  }
+  
