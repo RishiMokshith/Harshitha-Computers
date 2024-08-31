@@ -1,0 +1,18 @@
+{
+  "reviews": [
+    {
+      "id": "fb28",
+      "courseCode": "java001",
+      "rating": 5,
+      "username": "Muni",
+      "village": "Mpl"
+    },
+    {
+      "id": "e8a0",
+      "courseCode": "python001",
+      "rating": 5,
+      "username": "Muni",
+      "village": "Mpl"
+    }
+  ]
+}
